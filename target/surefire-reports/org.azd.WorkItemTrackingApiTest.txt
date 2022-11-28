@@ -1,0 +1,134 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.WorkItemTrackingApiTest
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 0, Errors: 29, Skipped: 0, Time elapsed: 0.32 s <<< FAILURE! - in org.azd.WorkItemTrackingApiTest
+shouldGetWorkItemField(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields/Acceptance%20Criteria?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemField(WorkItemTrackingApiTest.java:243)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields/Acceptance%20Criteria?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemField(WorkItemTrackingApiTest.java:243)
+
+shouldGetWorkItemTypes(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemTypes(WorkItemTrackingApiTest.java:172)
+
+shouldCreateAWorkItem(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.024 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldCreateAWorkItem(WorkItemTrackingApiTest.java:64)
+
+shouldGetAWorkItemType(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetAWorkItemType(WorkItemTrackingApiTest.java:177)
+
+shouldGetWorkItemActivities(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/work/accountmyworkrecentactivity?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemActivities(WorkItemTrackingApiTest.java:228)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/work/accountmyworkrecentactivity?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemActivities(WorkItemTrackingApiTest.java:228)
+
+shouldGetWorkItem(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItem(WorkItemTrackingApiTest.java:51)
+
+shouldAddHyperlink(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldAddHyperlink(WorkItemTrackingApiTest.java:152)
+
+shouldGetWorkItemFields(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemFields(WorkItemTrackingApiTest.java:233)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemFields(WorkItemTrackingApiTest.java:233)
+
+shouldGetWorkItemAttachmentAsStreamToAFile(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemAttachmentAsStreamToAFile(WorkItemTrackingApiTest.java:189)
+
+shouldGetWorkItems(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItems(WorkItemTrackingApiTest.java:84)
+
+shouldCreateWorkItemAttachment(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.011 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldCreateWorkItemAttachment(WorkItemTrackingApiTest.java:183)
+
+shouldGetWorkItemWithOptionalParameters(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemWithOptionalParameters(WorkItemTrackingApiTest.java:58)
+
+shouldCreateAWorkItemWithAdditionalFields(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.031 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldCreateAWorkItemWithAdditionalFields(WorkItemTrackingApiTest.java:74)
+
+shouldGetQueriesInBatch(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetQueriesInBatch(WorkItemTrackingApiTest.java:341)
+
+shouldQueryWorkItems(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.016 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldQueryWorkItems(WorkItemTrackingApiTest.java:103)
+
+shouldDeleteWorkItemField(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields/New%20Work%20Item%20Field?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldDeleteWorkItemField(WorkItemTrackingApiTest.java:277)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields/New%20Work%20Item%20Field?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldDeleteWorkItemField(WorkItemTrackingApiTest.java:277)
+
+shouldGetDeletedWorkItemFromRecycleBin(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetDeletedWorkItemFromRecycleBin(WorkItemTrackingApiTest.java:126)
+
+shouldGetAQueryObject(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetAQueryObject(WorkItemTrackingApiTest.java:327)
+
+shouldGetAllQueries(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetAllQueries(WorkItemTrackingApiTest.java:322)
+
+shouldQueryWorkItemsAndGetExactlyOneResult(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldQueryWorkItemsAndGetExactlyOneResult(WorkItemTrackingApiTest.java:110)
+
+shouldGetWorkItemAttachmentAsZipFile(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemAttachmentAsZipFile(WorkItemTrackingApiTest.java:195)
+
+shouldUpdateAWorkItem(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.015 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldUpdateAWorkItem(WorkItemTrackingApiTest.java:144)
+
+shouldSearchQueriesBasedOnFilter(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.007 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldSearchQueriesBasedOnFilter(WorkItemTrackingApiTest.java:347)
+
+shouldGetWorkItemRevisions(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.008 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemRevisions(WorkItemTrackingApiTest.java:89)
+
+shouldRemoveHyperlink(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldRemoveHyperlink(WorkItemTrackingApiTest.java:160)
+
+shouldGetWorkItemFieldsWithFieldsExpanded(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields?api-version=7.1-preview.2&$expand=extensionfields
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemFieldsWithFieldsExpanded(WorkItemTrackingApiTest.java:238)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields?api-version=7.1-preview.2&$expand=extensionfields
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemFieldsWithFieldsExpanded(WorkItemTrackingApiTest.java:238)
+
+shouldGetWorkItemRevision(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkItemTrackingApiTest.shouldGetWorkItemRevision(WorkItemTrackingApiTest.java:96)
+
+shouldUpdateAWorkItemField(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields/New%20Work%20Item%20Field?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldUpdateAWorkItemField(WorkItemTrackingApiTest.java:286)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields/New%20Work%20Item%20Field?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldUpdateAWorkItemField(WorkItemTrackingApiTest.java:286)
+
+shouldCreateWorkItemField(org.azd.WorkItemTrackingApiTest)  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldCreateWorkItemField(WorkItemTrackingApiTest.java:267)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/wit/fields?api-version=7.1-preview.2
+	at org.azd.WorkItemTrackingApiTest.shouldCreateWorkItemField(WorkItemTrackingApiTest.java:267)
+

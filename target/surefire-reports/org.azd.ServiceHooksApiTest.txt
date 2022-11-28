@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.ServiceHooksApiTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in org.azd.ServiceHooksApiTest
+shouldDeleteASubscription(org.azd.ServiceHooksApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/hooks/subscriptions?api-version=7.1-preview.1
+	at org.azd.ServiceHooksApiTest.shouldDeleteASubscription(ServiceHooksApiTest.java:76)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/hooks/subscriptions?api-version=7.1-preview.1
+	at org.azd.ServiceHooksApiTest.shouldDeleteASubscription(ServiceHooksApiTest.java:76)
+
+shouldCreateASubscription(org.azd.ServiceHooksApiTest)  Time elapsed: 0.006 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ServiceHooksApiTest.shouldCreateASubscription(ServiceHooksApiTest.java:37)
+
+shouldGetSubscriptions(org.azd.ServiceHooksApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/hooks/subscriptions?api-version=7.1-preview.1
+	at org.azd.ServiceHooksApiTest.shouldGetSubscriptions(ServiceHooksApiTest.java:71)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/hooks/subscriptions?api-version=7.1-preview.1
+	at org.azd.ServiceHooksApiTest.shouldGetSubscriptions(ServiceHooksApiTest.java:71)
+
+shouldGetASubscription(org.azd.ServiceHooksApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/hooks/subscriptions?api-version=7.1-preview.1
+	at org.azd.ServiceHooksApiTest.shouldGetASubscription(ServiceHooksApiTest.java:65)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/hooks/subscriptions?api-version=7.1-preview.1
+	at org.azd.ServiceHooksApiTest.shouldGetASubscription(ServiceHooksApiTest.java:65)
+

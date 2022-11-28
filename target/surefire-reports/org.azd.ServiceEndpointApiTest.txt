@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.ServiceEndpointApiTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in org.azd.ServiceEndpointApiTest
+shouldGetAllServiceEndpoints(org.azd.ServiceEndpointApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ServiceEndpointApiTest.shouldGetAllServiceEndpoints(ServiceEndpointApiTest.java:44)
+

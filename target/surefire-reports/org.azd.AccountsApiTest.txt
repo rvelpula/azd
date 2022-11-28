@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.AccountsApiTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.963 s <<< FAILURE! - in org.azd.AccountsApiTest
+shouldGetAllAccessibleOrganizations(org.azd.AccountsApiTest)  Time elapsed: 0.849 s  <<< ERROR!
+java.lang.IllegalArgumentException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/Contribution/HierarchyQuery?api-version=7.1-preview.1
+	at org.azd.AccountsApiTest.shouldGetAllAccessibleOrganizations(AccountsApiTest.java:49)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: https://dev.azure.com/{{ organization name }}/_apis/Contribution/HierarchyQuery?api-version=7.1-preview.1
+	at org.azd.AccountsApiTest.shouldGetAllAccessibleOrganizations(AccountsApiTest.java:49)
+
+shouldGetAUserProfileWithId(org.azd.AccountsApiTest)  Time elapsed: 0.796 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidPersonalAccessTokenException: Personal access token passed is invalid; Pass the valid token and try again.
+	at org.azd.AccountsApiTest.shouldGetAUserProfileWithId(AccountsApiTest.java:59)
+
+shouldGetAccounts(org.azd.AccountsApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.AccountsApiTest.shouldGetAccounts(AccountsApiTest.java:36)
+
+shouldGetAUserProfile(org.azd.AccountsApiTest)  Time elapsed: 0.27 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidPersonalAccessTokenException: Personal access token passed is invalid; Pass the valid token and try again.
+	at org.azd.AccountsApiTest.shouldGetAUserProfile(AccountsApiTest.java:54)
+

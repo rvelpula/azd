@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.CoreApiTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.1 s <<< FAILURE! - in org.azd.CoreApiTest
+shouldGetProjectProperties(org.azd.CoreApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldGetProjectProperties(CoreApiTest.java:82)
+
+shouldUpdateProjectTeams(org.azd.CoreApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldUpdateProjectTeams(CoreApiTest.java:140)
+
+shouldReadProjectFeatures(org.azd.CoreApiTest)  Time elapsed: 0.004 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldReadProjectFeatures(CoreApiTest.java:145)
+
+shouldToggleFeature(org.azd.CoreApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldToggleFeature(CoreApiTest.java:154)
+
+shouldGetAllProjectTeams(org.azd.CoreApiTest)  Time elapsed: 0.004 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldGetAllProjectTeams(CoreApiTest.java:135)
+
+shouldGetAProjectWithOptionalParameters(org.azd.CoreApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldGetAProjectWithOptionalParameters(CoreApiTest.java:64)
+
+shouldGetAProject(org.azd.CoreApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldGetAProject(CoreApiTest.java:59)
+
+shouldReturnAllProjects(org.azd.CoreApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldReturnAllProjects(CoreApiTest.java:88)
+
+shouldReturnListOfProcess(org.azd.CoreApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldReturnListOfProcess(CoreApiTest.java:39)
+
+shouldCreateAProjectTeam(org.azd.CoreApiTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.CoreApiTest.shouldCreateAProjectTeam(CoreApiTest.java:100)
+

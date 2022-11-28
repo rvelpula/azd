@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.PolicyApiTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in org.azd.PolicyApiTest
+shouldGetPolicyConfigurations(org.azd.PolicyApiTest)  Time elapsed: 0.006 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PolicyApiTest.shouldGetPolicyConfigurations(PolicyApiTest.java:58)
+
+shouldUpdatePolicyConfiguration(org.azd.PolicyApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PolicyApiTest.shouldUpdatePolicyConfiguration(PolicyApiTest.java:68)
+
+shouldGetPolicyType(org.azd.PolicyApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PolicyApiTest.shouldGetPolicyType(PolicyApiTest.java:94)
+
+shouldGetPolicyTypes(org.azd.PolicyApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PolicyApiTest.shouldGetPolicyTypes(PolicyApiTest.java:89)
+
+shouldGetPolicyConfiguration(org.azd.PolicyApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PolicyApiTest.shouldGetPolicyConfiguration(PolicyApiTest.java:63)
+

@@ -1,0 +1,168 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.GitApiTest
+-------------------------------------------------------------------------------
+Tests run: 53, Failures: 0, Errors: 41, Skipped: 0, Time elapsed: 0.353 s <<< FAILURE! - in org.azd.GitApiTest
+shouldGetRepositories(org.azd.GitApiTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetRepositories(GitApiTest.java:75)
+
+shouldUpdateRefs(org.azd.GitApiTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldUpdateRefs(GitApiTest.java:252)
+
+shouldGetPullRequestReviewers(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetPullRequestReviewers(GitApiTest.java:208)
+
+shouldDeleteTag(org.azd.GitApiTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldDeleteTag(GitApiTest.java:262)
+
+shouldGetBlobsAsZip(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetBlobsAsZip(GitApiTest.java:322)
+
+shouldUnLockABranch(org.azd.GitApiTest)  Time elapsed: 0.016 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldUnLockABranch(GitApiTest.java:152)
+
+shouldGetPullRequestWorkItems(org.azd.GitApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetPullRequestWorkItems(GitApiTest.java:157)
+
+shouldRetrieveAllPullRequestsFromARepository(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldRetrieveAllPullRequestsFromARepository(GitApiTest.java:117)
+
+shouldGetABlobContentAsStream(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetABlobContentAsStream(GitApiTest.java:307)
+
+shouldGetPullRequestLabels(org.azd.GitApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetPullRequestLabels(GitApiTest.java:173)
+
+shoulGetForkSyncRequest(org.azd.GitApiTest)  Time elapsed: 0.014 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shoulGetForkSyncRequest(GitApiTest.java:360)
+
+shouldGetABlobContentAsZip(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetABlobContentAsZip(GitApiTest.java:293)
+
+shouldGetPullRequestsByProject(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetPullRequestsByProject(GitApiTest.java:122)
+
+shouldGetAnAnnotatedTag(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetAnAnnotatedTag(GitApiTest.java:226)
+
+shouldCreateTag(org.azd.GitApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldCreateTag(GitApiTest.java:257)
+
+shouldGetRecycleBinRepositories(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetRecycleBinRepositories(GitApiTest.java:65)
+
+shouldGetRefs(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetRefs(GitApiTest.java:242)
+
+shouldGetAllItems(org.azd.GitApiTest)  Time elapsed: 0.018 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetAllItems(GitApiTest.java:334)
+
+shouldGetDeletedGitRepositories(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetDeletedGitRepositories(GitApiTest.java:60)
+
+shouldDeleteAPullRequestLabels(org.azd.GitApiTest)  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.azd.git.types.WebApiTagDefinition.getUrl()" because "label" is null
+	at org.azd.GitApiTest.shouldDeleteAPullRequestLabels(GitApiTest.java:185)
+
+shouldGetRepository(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetRepository(GitApiTest.java:70)
+
+shouldRetrieveAPullRequest(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldRetrieveAPullRequest(GitApiTest.java:107)
+
+shouldCreateAPullRequestReviewer(org.azd.GitApiTest)  Time elapsed: 0.031 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldCreateAPullRequestReviewer(GitApiTest.java:193)
+
+shouldGetTopTenPullRequestsByProject(org.azd.GitApiTest)  Time elapsed: 0.008 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetTopTenPullRequestsByProject(GitApiTest.java:127)
+
+shouldGetAPullRequestReviewer(org.azd.GitApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetAPullRequestReviewer(GitApiTest.java:203)
+
+shouldGetABlobContent(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetABlobContent(GitApiTest.java:280)
+
+shouldGetAPullRequestLabel(org.azd.GitApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetAPullRequestLabel(GitApiTest.java:168)
+
+shouldGetAllItemsWithQueryParameters(org.azd.GitApiTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetAllItemsWithQueryParameters(GitApiTest.java:339)
+
+shouldgetBranches(org.azd.GitApiTest)  Time elapsed: 0.011 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldgetBranches(GitApiTest.java:142)
+
+shouldUpdateAPullRequestReviewer(org.azd.GitApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldUpdateAPullRequestReviewer(GitApiTest.java:213)
+
+shouldGetCommitsFromARepository(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetCommitsFromARepository(GitApiTest.java:231)
+
+shouldGetABlob(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetABlob(GitApiTest.java:267)
+
+shouldGetForks(org.azd.GitApiTest)  Time elapsed: 0.011 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetForks(GitApiTest.java:375)
+
+shoulGetForkSyncRequests(org.azd.GitApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shoulGetForkSyncRequests(GitApiTest.java:370)
+
+shouldRetrieveAPullRequestById(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldRetrieveAPullRequestById(GitApiTest.java:112)
+
+shouldGetACommitsFromTheRepository(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetACommitsFromTheRepository(GitApiTest.java:236)
+
+shouldgetBranch(org.azd.GitApiTest)  Time elapsed: 0.008 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldgetBranch(GitApiTest.java:137)
+
+shouldCreateAPullRequestLabel(org.azd.GitApiTest)  Time elapsed: 0.007 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldCreateAPullRequestLabel(GitApiTest.java:163)
+
+shouldGetRefsWithQueryParameters(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetRefsWithQueryParameters(GitApiTest.java:247)
+
+shouldLockABranch(org.azd.GitApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldLockABranch(GitApiTest.java:147)
+
+shouldGetPullRequestsByProjectWithCompletedStatus(org.azd.GitApiTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GitApiTest.shouldGetPullRequestsByProjectWithCompletedStatus(GitApiTest.java:132)
+

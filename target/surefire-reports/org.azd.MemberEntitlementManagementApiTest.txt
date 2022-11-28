@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.MemberEntitlementManagementApiTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in org.azd.MemberEntitlementManagementApiTest
+shouldGetUsersEntitlements(org.azd.MemberEntitlementManagementApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MemberEntitlementManagementApiTest.shouldGetUsersEntitlements(MemberEntitlementManagementApiTest.java:60)
+
+shouldGetGroupEntitlements(org.azd.MemberEntitlementManagementApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MemberEntitlementManagementApiTest.shouldGetGroupEntitlements(MemberEntitlementManagementApiTest.java:38)
+
+shouldUpdateUsersEntitlement(org.azd.MemberEntitlementManagementApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MemberEntitlementManagementApiTest.shouldUpdateUsersEntitlement(MemberEntitlementManagementApiTest.java:65)
+
+shouldAddUserEntitlement(org.azd.MemberEntitlementManagementApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MemberEntitlementManagementApiTest.shouldAddUserEntitlement(MemberEntitlementManagementApiTest.java:53)
+
+shouldGetUsersEntitlementSummary(org.azd.MemberEntitlementManagementApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MemberEntitlementManagementApiTest.shouldGetUsersEntitlementSummary(MemberEntitlementManagementApiTest.java:48)
+

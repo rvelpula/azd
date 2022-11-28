@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.GraphApiTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in org.azd.GraphApiTest
+shouldAllowGroupInGroup(org.azd.GraphApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldAllowGroupInGroup(GraphApiTest.java:144)
+
+shouldDeleteAUser(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldDeleteAUser(GraphApiTest.java:80)
+
+shouldGetBiDirectionalMemberRelationship(org.azd.GraphApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldGetBiDirectionalMemberRelationship(GraphApiTest.java:100)
+
+shouldGetGraphGroups(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldGetGraphGroups(GraphApiTest.java:60)
+
+shouldCreateGroup(org.azd.GraphApiTest)  Time elapsed: 0.02 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldCreateGroup(GraphApiTest.java:157)
+
+shouldGetAGraphGroup(org.azd.GraphApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldGetAGraphGroup(GraphApiTest.java:67)
+
+shouldRemoveGroup(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldRemoveGroup(GraphApiTest.java:164)
+
+shouldNotAddGroupToSelf(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldNotAddGroupToSelf(GraphApiTest.java:135)
+
+shouldGetGraphUsers(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldGetGraphUsers(GraphApiTest.java:40)
+
+shouldAddAUserToGroup(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldAddAUserToGroup(GraphApiTest.java:73)
+
+shouldGetMembersInGroup(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldGetMembersInGroup(GraphApiTest.java:86)
+
+shouldGetGroupsForUser(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldGetGroupsForUser(GraphApiTest.java:93)
+
+removeSubjectFromGroup(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.removeSubjectFromGroup(GraphApiTest.java:128)
+
+shouldGetAGraphUser(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldGetAGraphUser(GraphApiTest.java:45)
+
+shouldCreateAGraphUser(org.azd.GraphApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphApiTest.shouldCreateAGraphUser(GraphApiTest.java:52)
+

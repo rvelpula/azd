@@ -1,0 +1,248 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.BuildApiTest
+-------------------------------------------------------------------------------
+Tests run: 61, Failures: 0, Errors: 61, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in org.azd.BuildApiTest
+shouldGetBuildTimelinesWithChangeAndPlanId(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuilds(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnWorkItemsBetweenBuilds(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldDeleteABuildDefinition(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldUpdateBuildDefinition(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldQueueTheBuild(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetSourceProvidersWebhooks(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldUpdateBuildTags(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnABuildController(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldCreateFolder(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldDeleteABuildTag(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldDeleteADefinitionTag(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildDefinitions(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetSourceProvidersBranches(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetSourceProvidersRepositories(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildLogs(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldAddADefinitionTag(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetABuild(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnABuildChanges(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldUpdateDefinitionTags(org.azd.BuildApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetSourceProviders(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildDefinitionWithOptionalParameters(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetSourceProvidersFileContents(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetSourceProvidersPathContents(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnTopTwoBuilds(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnListOfBuildController(org.azd.BuildApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetBuildTimelinesWithTimelineId(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetTags(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildDefinition(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnABuildLog(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnTopTwoBuildDefinitions(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetBuildTimelines(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldDeleteATag(org.azd.BuildApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildWorkItems(org.azd.BuildApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetABuildArtifact(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldAddBuildTags(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnABuildChangesWithOptionalParameters(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetABuildArtifacts(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldUpdateABuild(org.azd.BuildApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldAddDefinitionTags(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildsWithArrayOfBuildIds(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetBuildTags(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldDeleteAFolder(org.azd.BuildApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldDeleteABuild(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldUpdateFolder(org.azd.BuildApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldUpdateMultipleBuilds(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildDefinitionsWithIds(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildDefinitionsWithName(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetAListOfFolders(org.azd.BuildApiTest)  Time elapsed: 0.006 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnChangesBetweenBuilds(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldAddABuildTag(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldRestoreBuildDefinition(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldCreateBuildDefinition(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildDefinitionRevisions(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetYamlBuildForADefinition(org.azd.BuildApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnABuildLogWithOptionalParameters(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldReturnBuildWorkItemsWithOptionalParameters(org.azd.BuildApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetBuildArtifactAsZip(org.azd.BuildApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetSourceProvidersPullRequest(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldCreateBuildArtifact(org.azd.BuildApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+
+shouldGetDefinitionTags(org.azd.BuildApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.BuildApiTest.init(BuildApiTest.java:33)
+

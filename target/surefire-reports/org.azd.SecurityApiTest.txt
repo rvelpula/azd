@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.SecurityApiTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 9, Skipped: 1, Time elapsed: 0.036 s <<< FAILURE! - in org.azd.SecurityApiTest
+shouldListACLsWithExtendedInfo(org.azd.SecurityApiTest)  Time elapsed: 0.006 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.SecurityApiTest.shouldListACLsWithExtendedInfo(SecurityApiTest.java:81)
+
+shouldUpdateAccessControlEntry(org.azd.SecurityApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.SecurityApiTest.shouldUpdateAccessControlEntry(SecurityApiTest.java:339)
+
+shouldResolveSubjectIdentities(org.azd.SecurityApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.SecurityApiTest.shouldResolveSubjectIdentities(SecurityApiTest.java:102)
+
+shouldGetANamespace(org.azd.SecurityApiTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.SecurityApiTest.shouldGetANamespace(SecurityApiTest.java:62)
+
+shouldListSecurityNamespaces(org.azd.SecurityApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.SecurityApiTest.shouldListSecurityNamespaces(SecurityApiTest.java:55)
+
+shouldListACLs(org.azd.SecurityApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.SecurityApiTest.shouldListACLs(SecurityApiTest.java:70)
+
+shouldAddAndRemoveACL(org.azd.SecurityApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.lang.AssertionError> but was<org.azd.exceptions.AzDException>
+	at org.azd.SecurityApiTest.shouldAddAndRemoveACL(SecurityApiTest.java:185)
+
+shouldListACLForDescriptor(org.azd.SecurityApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.SecurityApiTest.shouldListACLForDescriptor(SecurityApiTest.java:125)
+
+shouldUpdateAccessControlList(org.azd.SecurityApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.SecurityApiTest.shouldUpdateAccessControlList(SecurityApiTest.java:251)
+

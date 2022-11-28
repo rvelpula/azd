@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.MavenApiTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.066 s <<< FAILURE! - in org.azd.MavenApiTest
+shouldDownloadPackage(org.azd.MavenApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldDownloadPackage(MavenApiTest.java:153)
+
+shouldUpdatePackageVersions(org.azd.MavenApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldUpdatePackageVersions(MavenApiTest.java:195)
+
+shouldUploadPackage(org.azd.MavenApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldUploadPackage(MavenApiTest.java:161)
+
+shouldGetPackageVersion(org.azd.MavenApiTest)  Time elapsed: 0.005 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldGetPackageVersion(MavenApiTest.java:84)
+
+shouldGetUpstreamingBehavior(org.azd.MavenApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldGetUpstreamingBehavior(MavenApiTest.java:102)
+
+shouldClearUpstreamingBehavior(org.azd.MavenApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldClearUpstreamingBehavior(MavenApiTest.java:117)
+
+shouldSetUpstreamingBehavior(org.azd.MavenApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldSetUpstreamingBehavior(MavenApiTest.java:110)
+
+shouldUpdatePackageVersion(org.azd.MavenApiTest)  Time elapsed: 0.032 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldUpdatePackageVersion(MavenApiTest.java:124)
+
+shouldGetPackageVersionWithQueryParameters(org.azd.MavenApiTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldGetPackageVersionWithQueryParameters(MavenApiTest.java:93)
+
+shouldDeleteRestorePackageVersion(org.azd.MavenApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.MavenApiTest.shouldDeleteRestorePackageVersion(MavenApiTest.java:132)
+

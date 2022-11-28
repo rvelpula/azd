@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.GraphCoreResolutionTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in org.azd.GraphCoreResolutionTest
+shouldLookupMultipleSubjects(org.azd.GraphCoreResolutionTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphCoreResolutionTest.shouldLookupMultipleSubjects(GraphCoreResolutionTest.java:54)
+
+shouldCreateProjectGroup(org.azd.GraphCoreResolutionTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphCoreResolutionTest.shouldCreateProjectGroup(GraphCoreResolutionTest.java:63)
+
+shouldResolveDescriptorForProject(org.azd.GraphCoreResolutionTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.GraphCoreResolutionTest.shouldResolveDescriptorForProject(GraphCoreResolutionTest.java:46)
+

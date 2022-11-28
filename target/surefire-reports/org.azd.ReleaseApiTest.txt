@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.ReleaseApiTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.058 s <<< FAILURE! - in org.azd.ReleaseApiTest
+shouldGetARelease(org.azd.ReleaseApiTest)  Time elapsed: 0.011 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldGetARelease(ReleaseApiTest.java:51)
+
+shouldGetReleaseApprovals(org.azd.ReleaseApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldGetReleaseApprovals(ReleaseApiTest.java:98)
+
+shouldUpdateAReleaseDefinitionOrPipeline(org.azd.ReleaseApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldUpdateAReleaseDefinitionOrPipeline(ReleaseApiTest.java:122)
+
+shouldUpdateARelease(org.azd.ReleaseApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldUpdateARelease(ReleaseApiTest.java:103)
+
+shouldCreateARelease(org.azd.ReleaseApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldCreateARelease(ReleaseApiTest.java:39)
+
+shouldGetReleaseEnvironmentDetails(org.azd.ReleaseApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldGetReleaseEnvironmentDetails(ReleaseApiTest.java:57)
+
+shouldGetAllReleaseDefinitions(org.azd.ReleaseApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldGetAllReleaseDefinitions(ReleaseApiTest.java:64)
+
+shouldDeleteARelease(org.azd.ReleaseApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldDeleteARelease(ReleaseApiTest.java:79)
+
+shouldGetManualInterventions(org.azd.ReleaseApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldGetManualInterventions(ReleaseApiTest.java:116)
+
+shouldGetReleaseDefinitionHistory(org.azd.ReleaseApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldGetReleaseDefinitionHistory(ReleaseApiTest.java:74)
+
+shouldGetAReleaseDefinition(org.azd.ReleaseApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldGetAReleaseDefinition(ReleaseApiTest.java:69)
+
+shouldGetAllReleases(org.azd.ReleaseApiTest)  Time elapsed: 0.006 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ReleaseApiTest.shouldGetAllReleases(ReleaseApiTest.java:46)
+

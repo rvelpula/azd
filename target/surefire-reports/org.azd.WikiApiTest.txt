@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.WikiApiTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! - in org.azd.WikiApiTest
+shouldCreateWiki(org.azd.WikiApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WikiApiTest.shouldCreateWiki(WikiApiTest.java:42)
+
+shouldGetAllWikis(org.azd.WikiApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WikiApiTest.shouldGetAllWikis(WikiApiTest.java:74)
+
+shouldGetThePageStats(org.azd.WikiApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WikiApiTest.shouldGetThePageStats(WikiApiTest.java:115)
+
+shouldCreateWikiPageMove(org.azd.WikiApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WikiApiTest.shouldCreateWikiPageMove(WikiApiTest.java:103)
+
+shouldGetAWiki(org.azd.WikiApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WikiApiTest.shouldGetAWiki(WikiApiTest.java:69)
+

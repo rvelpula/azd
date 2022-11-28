@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.WorkApiTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in org.azd.WorkApiTest
+shouldGetTeamIterations(org.azd.WorkApiTest)  Time elapsed: 0.007 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkApiTest.shouldGetTeamIterations(WorkApiTest.java:35)
+
+shouldGetTeamIterationsWithTimeFrame(org.azd.WorkApiTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkApiTest.shouldGetTeamIterationsWithTimeFrame(WorkApiTest.java:40)
+
+shouldGetATeamIteration(org.azd.WorkApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkApiTest.shouldGetATeamIteration(WorkApiTest.java:53)
+
+shouldGetTeamIterationWorkItems(org.azd.WorkApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.WorkApiTest.shouldGetTeamIterationWorkItems(WorkApiTest.java:46)
+

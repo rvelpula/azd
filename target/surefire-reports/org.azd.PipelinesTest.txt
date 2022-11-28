@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.PipelinesTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.06 s <<< FAILURE! - in org.azd.PipelinesTest
+shouldGetArtifacts(org.azd.PipelinesTest)  Time elapsed: 0.019 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PipelinesTest.shouldGetArtifacts(PipelinesTest.java:36)
+
+shouldGetPipelines(org.azd.PipelinesTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PipelinesTest.shouldGetPipelines(PipelinesTest.java:49)
+
+shouldGetPipelineLog(org.azd.PipelinesTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PipelinesTest.shouldGetPipelineLog(PipelinesTest.java:54)
+
+shouldGetPipelineLogs(org.azd.PipelinesTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PipelinesTest.shouldGetPipelineLogs(PipelinesTest.java:64)
+
+shouldGetPipelineLogWithOptions(org.azd.PipelinesTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PipelinesTest.shouldGetPipelineLogWithOptions(PipelinesTest.java:59)
+
+shouldGetArtifactsWithContentsExpanded(org.azd.PipelinesTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PipelinesTest.shouldGetArtifactsWithContentsExpanded(PipelinesTest.java:44)
+
+shouldPreviewADryRunAndReturnYaml(org.azd.PipelinesTest)  Time elapsed: 0.008 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PipelinesTest.shouldPreviewADryRunAndReturnYaml(PipelinesTest.java:77)
+
+shouldRunAnExistingPipeline(org.azd.PipelinesTest)  Time elapsed: 0.008 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.PipelinesTest.shouldRunAnExistingPipeline(PipelinesTest.java:82)
+

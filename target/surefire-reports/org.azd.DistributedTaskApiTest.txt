@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.DistributedTaskApiTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.069 s <<< FAILURE! - in org.azd.DistributedTaskApiTest
+shouldGetAllDeploymentGroups(org.azd.DistributedTaskApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldGetAllDeploymentGroups(DistributedTaskApiTest.java:56)
+
+shouldUpdateAnEnvironment(org.azd.DistributedTaskApiTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldUpdateAnEnvironment(DistributedTaskApiTest.java:103)
+
+shouldGetAnAgentInAPool(org.azd.DistributedTaskApiTest)  Time elapsed: 0.007 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldGetAnAgentInAPool(DistributedTaskApiTest.java:41)
+
+shouldGetADeploymentGroup(org.azd.DistributedTaskApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldGetADeploymentGroup(DistributedTaskApiTest.java:61)
+
+shouldGetAllAgentsInAPool(org.azd.DistributedTaskApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldGetAllAgentsInAPool(DistributedTaskApiTest.java:46)
+
+shouldUpdateADeploymentGroup(org.azd.DistributedTaskApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldUpdateADeploymentGroup(DistributedTaskApiTest.java:76)
+
+shouldReturnListOfEnvironments(org.azd.DistributedTaskApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldReturnListOfEnvironments(DistributedTaskApiTest.java:92)
+
+shouldGetAnEnvironment(org.azd.DistributedTaskApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldGetAnEnvironment(DistributedTaskApiTest.java:87)
+
+shouldUpdateAVariableGroup(org.azd.DistributedTaskApiTest)  Time elapsed: 0.008 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldUpdateAVariableGroup(DistributedTaskApiTest.java:172)
+
+shouldGetVariableGroups(org.azd.DistributedTaskApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldGetVariableGroups(DistributedTaskApiTest.java:148)
+
+shouldDeleteAVariableGroup(org.azd.DistributedTaskApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldDeleteAVariableGroup(DistributedTaskApiTest.java:157)
+
+shouldDeleteAnEnvironment(org.azd.DistributedTaskApiTest)  Time elapsed: 0.008 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.DistributedTaskApiTest.shouldDeleteAnEnvironment(DistributedTaskApiTest.java:97)
+

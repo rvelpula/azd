@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.FeedManagementApiTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.09 s <<< FAILURE! - in org.azd.FeedManagementApiTest
+shouldGetAFeedView(org.azd.FeedManagementApiTest)  Time elapsed: 0.065 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldGetAFeedView(FeedManagementApiTest.java:77)
+
+shouldSetFeedPermissions(org.azd.FeedManagementApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldSetFeedPermissions(FeedManagementApiTest.java:97)
+
+shouldUpdateAFeed(org.azd.FeedManagementApiTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldUpdateAFeed(FeedManagementApiTest.java:103)
+
+shouldGetFeedViews(org.azd.FeedManagementApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldGetFeedViews(FeedManagementApiTest.java:82)
+
+shouldGetAFeedPermissions(org.azd.FeedManagementApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldGetAFeedPermissions(FeedManagementApiTest.java:67)
+
+shouldUpdateAFeedView(org.azd.FeedManagementApiTest)  Time elapsed: 0 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldUpdateAFeedView(FeedManagementApiTest.java:110)
+
+shouldGetAFeed(org.azd.FeedManagementApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldGetAFeed(FeedManagementApiTest.java:57)
+
+shouldGetFeeds(org.azd.FeedManagementApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldGetFeeds(FeedManagementApiTest.java:87)
+
+shouldGetFeedsWithQueryParameters(org.azd.FeedManagementApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldGetFeedsWithQueryParameters(FeedManagementApiTest.java:92)
+
+shouldCreateAndUpdateAFeed(org.azd.FeedManagementApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.FeedManagementApiTest.shouldCreateAndUpdateAFeed(FeedManagementApiTest.java:126)
+

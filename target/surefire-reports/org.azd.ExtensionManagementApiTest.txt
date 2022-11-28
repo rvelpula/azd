@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.azd.ExtensionManagementApiTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in org.azd.ExtensionManagementApiTest
+shouldUnInstallExtension(org.azd.ExtensionManagementApiTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ExtensionManagementApiTest.shouldUnInstallExtension(ExtensionManagementApiTest.java:44)
+
+shouldReturnListOfExtensions(org.azd.ExtensionManagementApiTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.azd.exceptions.AzDException: InvalidOrganizationNameException: Couldn't find the organization name '{{ organization name }}'.
+	at org.azd.ExtensionManagementApiTest.shouldReturnListOfExtensions(ExtensionManagementApiTest.java:34)
+
